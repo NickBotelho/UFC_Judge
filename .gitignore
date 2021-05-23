@@ -1,0 +1,5 @@
+frontend/node_modules
+__pycache__
+.vscode
+mnist_pytorch_ipynb
+
