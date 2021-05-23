@@ -10,3 +10,4 @@ matplotlib
 tqdm
 gunicorn
 flask
+flask_cors
