@@ -17,7 +17,7 @@ function FightInput(props){
             }),    
         }
 
-        const search_result = await fetch("http://127.0.0.1:5000/predict", requestSearch)
+        const search_result = await fetch("https://ufcjudge.herokuapp.com/predict", requestSearch)
         const data = await search_result.json()
         console.log(data)
         props.setWinner(data['winner'])
