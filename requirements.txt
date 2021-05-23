@@ -9,3 +9,4 @@ pandas
 matplotlib
 tqdm
 gunicorn
+flask
