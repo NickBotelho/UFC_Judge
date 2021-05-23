@@ -1,1 +1,1 @@
-worker: python backend.py
+web: gunicorn app:backend

@@ -40,4 +40,4 @@ def all_routes(text):
     return render_template("index.html")
      
 
-app.run(debug = True)
+# app.run(debug = True)
